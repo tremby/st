@@ -9,6 +9,11 @@ see each patch's page for author information.
   scrollback-mouse
 - [visualbell](https://st.suckless.org/patches/visualbell/) (basic version)
 
+It also has my config header file checked in, which has a few basic changes:
+
+- DejaVu Sans Mono font at 18 pixels
+- "Tango dark" colour palette
+
 Original readme follows:
 
 ---
