@@ -62,6 +62,17 @@ static unsigned int cursorthickness = 2;
  */
 static int bellvolume = 0;
 
+/*
+ * visual-bell timeout (set to 0 to disable visual-bell).
+ */
+static int vbelltimeout = 0;
+/*
+ * visual bell mode when enabled:
+ *   1: Inverse whole screen
+ *   2: Inverse outer (border) cells
+ */
+static int vbellmode = 1;
+
 /* default TERM value */
 char *termname = "st-256color";
 
