@@ -113,32 +113,33 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
+/* I took these directly from iterm2's default scheme "tango dark" */
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#d71e00",
+	"#5da602",
+	"#cfad00",
+	"#417ab3",
+	"#88658d",
+	"#00a7aa",
+	"#dbded8",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#676965",
+	"#f44135",
+	"#98e342",
+	"#fcea60",
+	"#83afd8",
+	"#bc93b6",
+	"#37e5e7",
+	"#f1f1ef",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
-	"#555555",
+	"black",
 	"gray90", /* default foreground colour */
 	"black", /* default background colour */
 };
