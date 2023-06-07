@@ -74,7 +74,7 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* visual-bell timeout in ms (0 to disable visual-bell) */
-static int vbelltimeout = 150;
+static int vbelltimeout = 200;
 
 /* choose predefined visual-bell cells to inverse, or define your own logic */
 #define VBCELL x==0 || x==right || y==0 || y==bottom  /* border */
@@ -86,11 +86,11 @@ static int vbellmode = 1;
  * - base and outline colors (colorname index - see below)
  * - radius: relative to window width, or if negative: relative to cell-width
  * - position: relative to window width/height (0 and 1 are at the edges) */
-static int vbellcolor = 3;
-static int vbellcolor_outline = 1;
+static int vbellcolor = 0;
+static int vbellcolor_outline = 3;
 static float vbellradius = 0.03;
-static float vbellx = 0.5;
-static float vbelly = 0.5;
+static float vbellx = 1.0;
+static float vbelly = 1.0;
 
 /* default TERM value */
 char *termname = "st-256color";
